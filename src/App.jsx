@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
-  const [quote, setQuote] = useState({text: "Are you the strongest because you are Gladwyn?, or are you Gladwyn because you are the strongest?", author: "Cheemsburbger"})
+  const [quote, setQuote] = useState({content: " QUOTES GENERATOR ", author: "Cheemsburbger"})
 
   async function fetchQuotes(){
     const response = await fetch("https://api.quotable.io/quotes/random")
