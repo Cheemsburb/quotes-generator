@@ -30,7 +30,7 @@ function App() {
             -{quote.author}
           </p>
           <button className='reset' onClick={handleClick}>
-            <img src=".../src/public/refresh.png" alt="refresh-icon" className='refresh-icon'/>
+            <img src="public/refresh.png" alt="refresh-icon" className='refresh-icon'/>
           </button>
         </div>
       </div>
